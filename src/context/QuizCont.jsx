@@ -20,34 +20,33 @@ export const QuizProvider = ({ children }) => {
     setQuestions(selected);
   }, []);
 
-  const handleAnswer = (isCorrect) => {
+const handleAnswer = (isCorrect) => {
     if (isCorrect) {
       setScore((prev) => prev + 10);
       setStreak((prev) => prev + 1);
-    } else {
+    } 
+    else
+     {
       setStreak(0);
     }
+    setTimeout(() => {
+      if (currentQ + 1 < questions.length) {
+        setCurrentQ((prev) => prev + 1);
+      }
+       else 
+      {
+        setShowResult(true);
+      }
 
-    const nextQ = currentQ + 1;
-    if (nextQ < questions.length) {
-      setCurrentQ(nextQ);
-    } else {
-      setShowResult(true);
-    }
+    }, 200);
   };
 
+
+
   return (
-    <QuizContext.Provider
-      value={{
-        questions,
-        currentQ,
-        score,
-        streak,
-        showResult,
-        handleAnswer,
-      }}
-    >
+  <QuizContext.Provider
+  value={{ questions, currentQ,handleAnswer,score,streak,showResult,setCurrentQ,setScore,setStreak,setShowResult}}>
       {children}
     </QuizContext.Provider>
   );
-};
+  };
