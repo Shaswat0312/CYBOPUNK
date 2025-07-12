@@ -2,7 +2,7 @@
 import {useEffect, useState } from "react";
 import {createContext} from "react";
 
-import questionsData from "../Data/questions.json"; 
+import questionsData from "../Data/Questions.json"; 
 
 export const QuizContext = createContext();
 
