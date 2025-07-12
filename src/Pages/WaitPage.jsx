@@ -42,10 +42,7 @@ const WaitPage = () => {
         </div>
 
         <div className="mt-6 w-full bg-cyan-800/30 h-4 rounded-full overflow-hidden shadow-md border border-cyan-400/20">
-          <div
-            className="h-full bg-cyan-400 transition-all duration-100 ease-linear"
-            style={{ width: `${progress}%` }}
-          />
+          <div className="h-full bg-cyan-400 transition-all duration-100 ease-linear" style={{ width: `${progress}%` }} />
         </div>
 
         <p className="mt-3 text-center text-xs text-cyan-400">DO NOT REFRESH - STAY FOCUSED</p>

@@ -13,10 +13,6 @@ html, body {
     text-shadow: 0 0 5px #00faff, 0 0 10px #00faff, 0 0 20px #00faff;
   }
 
-  .animate-fade-in-fast {
-    animation: fadeIn 0.6s ease-out both;
-  }
-
   .animate-pulse-slow {
     animation: pulseSlow 6s ease-in-out infinite;
   }
@@ -65,15 +61,6 @@ html, body {
   font-weight: bold;
   letter-spacing: 2px;
 }
-@keyframes pulse-glow {
-  0%, 100% {
-    box-shadow: 0 0 15px #0ff, 0 0 30px #0ff;
-  }
-  50% {
-    box-shadow: 0 0 25px #ff00ff, 0 0 50px #ff00ff;
-  }
-}
-
 @keyframes slide-up-fade {
   0% {
     opacity: 0;
@@ -84,11 +71,6 @@ html, body {
     transform: translateY(0);
   }
 }
-
-.animate-pulse-glow {
-  animation: pulse-glow 2s infinite;
-}
-
 .animate-slide-up-fade {
   animation: slide-up-fade 0.8s ease-out forwards;
 }
@@ -124,9 +106,6 @@ html, body {
   animation: bounceFadeIn 0.8s ease-out forwards;
 }
 
-.animate-fade-in-fast {
-  animation: fade-in-fast 0.6s ease-out both;
-}
 @keyframes fade-in-fast {
   0% {
     opacity: 0;
@@ -141,10 +120,6 @@ html, body {
 .animate-bounce-slow {
   animation: bounce-slow 2s ease-in-out infinite;
 }
-
-.animate-fade-in-fast {
-  animation: fade-in-fast 0.6s ease-out both;
-}
 @keyframes glow {
   0%, 100% {
     text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
@@ -157,18 +132,28 @@ html, body {
 .animate-glow {
   animation: glow 2s ease-in-out infinite;
 }
-@keyframes cyberPulse {
-  0%, 100% {
-    text-shadow: 0 0 5px #7df9ff, 0 0 10px #7df9ff, 0 0 20px #7df9ff;
+@keyframes starFall {
+  0% {
+    transform: translate3d(0, 0, 0);
     opacity: 1;
   }
-  50% {
-    text-shadow: 0 0 10px #00f0ff, 0 0 30px #00f0ff, 0 0 50px #00f0ff;
-    opacity: 0.85;
+  100% {
+    transform: translate3d(-120vw, 100vh, 0);
+    opacity: 0;
   }
 }
-
-.animate-cyberPulse {
-  animation: cyberPulse 2.5s ease-in-out infinite;
+.falling-star {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background: linear-gradient(45deg, #00faff, transparent);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 6px #00faff);
+  top: calc(100% * var(--top));
+  left: 100%;
+  transform: translate3d(0, 0, 0);
+  animation: starFall linear infinite;
+  animation-duration: calc(6s + 4s * var(--delay));
+  animation-delay: calc(1s * var(--delay));
 }
 
