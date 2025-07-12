@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTTPS stand for?",
+    "options": [
+      "HyperText Transfer Protocol Secure",
+      "High Transfer Text Protocol Server",
+      "Hyper Tool Terminal Service",
+      "Hosting Text Transfer Service"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": "What is a firewall used for in cybersecurity?",
+    "options": [
+      "To monitor employees",
+      "To create a wireless network",
+      "To prevent unauthorized access to or from a network",
+      "To speed up internet connections"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 3,
+    "question": "Which type of malware restricts access until a ransom is paid?",
+    "options": [
+      "Worm",
+      "Ransomware",
+      "Trojan",
+      "Adware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 4,
+    "question": "What is phishing?",
+    "options": [
+      "A way to catch viruses",
+      "A type of malware",
+      "A fraudulent attempt to obtain sensitive info",
+      "Scanning a system for vulnerabilities"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "What does 2FA stand for?",
+    "options": [
+      "Two-Factor Authentication",
+      "Two-Firewall Access",
+      "Token Function Algorithm",
+      "Two-Finger Access"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 6,
+    "question": "What is the main purpose of encryption?",
+    "options": [
+      "Speed up internet",
+      "Prevent hackers from tracking location",
+      "Hide system files",
+      "Protect data by converting it into unreadable form"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 7,
+    "question": "What is a DDoS attack?",
+    "options": [
+      "Direct Data over System",
+      "Distributed Denial of Service",
+      "Data Delivery on Site",
+      "Direct Dump of Security"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": "Which is a strong password?",
+    "options": [
+      "12345678",
+      "ilovecats",
+      "Admin123",
+      "H@ckM3!2025"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 9,
+    "question": "What does VPN stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Verified Protocol Network",
+      "Visual Protection Network",
+      "Virtual Process Node"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 10,
+    "question": "Which protocol is used for secure file transfer?",
+    "options": [
+      "FTP",
+      "SFTP",
+      "SMTP",
+      "HTTP"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of an antivirus?",
+    "options": [
+      "To clean your computer screen",
+      "To detect and remove malicious software",
+      "To speed up your internet",
+      "To update your OS"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 12,
+    "question": "What does 'zero-day' refer to?",
+    "options": [
+      "A newly released software",
+      "A hacker's first attempt",
+      "A security flaw not yet patched",
+      "A backup restore point"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is a social engineering attack?",
+    "options": [
+      "Brute force",
+      "Phishing",
+      "Keylogging",
+      "SQL Injection"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 14,
+    "question": "What is the main goal of penetration testing?",
+    "options": [
+      "To fix broken servers",
+      "To train employees",
+      "To find vulnerabilities before attackers do",
+      "To develop software faster"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "What is the full form of SQL?",
+    "options": [
+      "Secure Query Layer",
+      "Simple Question Language",
+      "Structured Query Language",
+      "System Quality Logic"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is used to prevent unauthorized access?",
+    "options": [
+      "Firewall",
+      "Clipboard",
+      "Cache",
+      "Cookies"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 17,
+    "question": "How often should you update your passwords?",
+    "options": [
+      "Never",
+      "Once a year",
+      "Every week",
+      "Regularly and when there's a breach"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": 18,
+    "question": "What is the function of CAPTCHA?",
+    "options": [
+      "To speed up login",
+      "To identify spam users",
+      "To allow guest login",
+      "To monitor usage"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 19,
+    "question": "Which type of attack targets a specific individual?",
+    "options": [
+      "Worm",
+      "Spear Phishing",
+      "Trojan",
+      "Ransomware"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "What’s the safest way to store passwords?",
+    "options": [
+      "On a sticky note",
+      "In your browser",
+      "In a password manager",
+      "As a photo in gallery"
+    ],
+    "answerIndex": 2
+  }
+]
