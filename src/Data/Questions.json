@@ -218,5 +218,225 @@
       "As a photo in gallery"
     ],
     "answerIndex": 2
+  },
+  {
+    "id": 21,
+    "question": "What is malware?",
+    "options": [
+      "Software for managing passwords",
+      "Malicious software designed to harm or exploit",
+      "A firewall upgrade",
+      "Encrypted data backup"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is NOT a form of malware?",
+    "options": [
+      "Worm",
+      "Trojan horse",
+      "Firewall",
+      "Spyware"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "What is the primary goal of phishing?",
+    "options": [
+      "To destroy computers",
+      "To gain unauthorized access to confidential information",
+      "To slow down websites",
+      "To increase website ranking"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is a strong method for authentication?",
+    "options": [
+      "Username only",
+      "Password only",
+      "Biometric and password",
+      "IP address"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 25,
+    "question": "What is brute force attack?",
+    "options": [
+      "A physical cyber attack",
+      "Trying all possible combinations to crack a password",
+      "A type of DDoS attack",
+      "A firewall failure"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 26,
+    "question": "Which tool is used for network packet analysis?",
+    "options": [
+      "Wireshark",
+      "Photoshop",
+      "Slack",
+      "Google Sheets"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 27,
+    "question": "What is the purpose of a VPN?",
+    "options": [
+      "To clean viruses",
+      "To encrypt internet connection and mask IP",
+      "To store passwords",
+      "To manage RAM usage"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 28,
+    "question": "A backdoor is:",
+    "options": [
+      "A shortcut to a website",
+      "A hidden method to bypass authentication",
+      "A strong password technique",
+      "A type of spam email"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 29,
+    "question": "What is spyware?",
+    "options": [
+      "Software that improves browser speed",
+      "Tool used by security teams",
+      "Malware that secretly monitors user activity",
+      "App for updating system drivers"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 30,
+    "question": "Which port is used by HTTPS?",
+    "options": [
+      "80",
+      "21",
+      "443",
+      "22"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 31,
+    "question": "What is the role of cookies in web browsing?",
+    "options": [
+      "Secure login",
+      "Track user activity and preferences",
+      "Encrypt traffic",
+      "Prevent hacking"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is a password manager?",
+    "options": [
+      "Wireshark",
+      "Bitwarden",
+      "Chrome",
+      "Notepad"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 33,
+    "question": "How does a Trojan virus usually operate?",
+    "options": [
+      "It replicates across systems automatically",
+      "It hides inside legitimate-looking software",
+      "It sends spam emails",
+      "It encrypts your hard drive"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 34,
+    "question": "What is ethical hacking?",
+    "options": [
+      "Using cyber tools for theft",
+      "Legally testing systems for vulnerabilities",
+      "Breaking firewalls for fun",
+      "Creating viruses for educational purposes"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 35,
+    "question": "What is two-step verification?",
+    "options": [
+      "Two users logging in together",
+      "Logging in through VPN first",
+      "Adding a second layer to login, like OTP",
+      "Changing password twice"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 36,
+    "question": "What does the lock icon in a browser’s address bar mean?",
+    "options": [
+      "Website is blocked",
+      "Connection is encrypted with SSL/TLS",
+      "Pop-ups are disabled",
+      "You are connected to Wi-Fi"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is a form of identity theft?",
+    "options": [
+      "Using antivirus software",
+      "Logging into your own account",
+      "Pretending to be someone else to gain access",
+      "Running a speed test"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 38,
+    "question": "What is a botnet?",
+    "options": [
+      "A network of AI tools",
+      "A collection of internet bots controlled by an attacker",
+      "A group of search engines",
+      "An antivirus program"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Which practice helps improve cybersecurity hygiene?",
+    "options": [
+      "Clicking on all links",
+      "Ignoring software updates",
+      "Regularly updating passwords",
+      "Saving all passwords in notepad"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 40,
+    "question": "What is the purpose of SSL certificates?",
+    "options": [
+      "To block viruses",
+      "To authenticate and encrypt connections to websites",
+      "To store login data",
+      "To compress websites"
+    ],
+    "answerIndex": 1
   }
 ]

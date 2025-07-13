@@ -3,17 +3,7 @@ const Header = ({name}) => {
   return (
     <>
        <div className="relative z-30"></div>
-<div className="bg-gradient-to-r from-[#00f0ff]/40 via-[#8e2de2]/40 to-[#4a00e0]/40 
-  backdrop-blur-md 
-  border-b border-cyan-300/50 
-  shadow-[0_0_40px_#00f0ff88,0_0_80px_#8e2de288] 
-  px-6 py-5 
-  rounded-b-xl 
-  flex items-center justify-between 
-  text-white font-bold 
-  tracking-wide 
-  z-50">
-
+<div className="bg-gradient-to-r from-[#00f0ff] via-[#8e2de2] to-[#4a00e0] text-white px-6 py-5 shadow-[0_0_15px_#00f0ff88] flex items-center justify-between relative border-b border-cyan-400/30">
         <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white hidden sm:block tracking-wider neon-text-glow">
                 WELCOME <span className="text-blue-600"></span>
         </p>
