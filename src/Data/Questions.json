@@ -438,5 +438,226 @@
       "To compress websites"
     ],
     "answerIndex": 1
+  },
+  {
+    "id": 41,
+    "question": "What is the most common target of phishing attacks?",
+    "options": [
+      "Printers",
+      "Mobile games",
+      "Emails and login credentials",
+      "Antivirus software"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 42,
+    "question": "Which of these is a secure way to connect to a remote server?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SSH",
+      "Telnet"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 43,
+    "question": "What is social engineering in cybersecurity?",
+    "options": [
+      "Designing websites",
+      "Manipulating people into revealing confidential info",
+      "Engineering social media platforms",
+      "Creating fake profiles"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is a sign of a phishing email?",
+    "options": [
+      "Grammatical errors and suspicious links",
+      "Well-written grammar",
+      "Trusted sender address",
+      "No links or attachments"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": 45,
+    "question": "What does the term 'patch' mean in cybersecurity?",
+    "options": [
+      "New application",
+      "A fake software",
+      "An update that fixes vulnerabilities",
+      "A recovery backup"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 46,
+    "question": "Which attack tricks users into clicking fake links or buttons?",
+    "options": [
+      "DDoS",
+      "Phishing",
+      "Clickjacking",
+      "Brute force"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 47,
+    "question": "Which device is most vulnerable to shoulder surfing?",
+    "options": [
+      "Smart TV",
+      "ATM",
+      "Printer",
+      "Router"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 48,
+    "question": "Which concept ensures data is not altered during transfer?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Anonymity"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 49,
+    "question": "Which one is a form of biometric authentication?",
+    "options": [
+      "Password",
+      "OTP",
+      "Fingerprint scan",
+      "PIN code"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 50,
+    "question": "What does cybersecurity aim to protect?",
+    "options": [
+      "Only servers",
+      "Physical offices",
+      "Information and systems from digital threats",
+      "Passwords only"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 51,
+    "question": "What is the role of a honeypot in cybersecurity?",
+    "options": [
+      "To store cookies",
+      "To detect and trap attackers",
+      "To track employee productivity",
+      "To manage databases"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 52,
+    "question": "What is a common symptom of a compromised system?",
+    "options": [
+      "Faster performance",
+      "Updated software",
+      "Unusual pop-ups or slow speed",
+      "Increased battery life"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 53,
+    "question": "What is the main risk of public Wi-Fi?",
+    "options": [
+      "No login required",
+      "Too many users",
+      "Lack of encryption exposes data to attackers",
+      "High cost"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is NOT good password hygiene?",
+    "options": [
+      "Using long and complex passwords",
+      "Using the same password everywhere",
+      "Changing passwords periodically",
+      "Using a password manager"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "What is multifactor authentication (MFA)?",
+    "options": [
+      "Authentication using multiple apps",
+      "Using more than one method to verify identity",
+      "Two people logging in together",
+      "A backup recovery tool"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 56,
+    "question": "What is a common goal of cyber attackers?",
+    "options": [
+      "System improvement",
+      "Data theft or disruption",
+      "Software updates",
+      "Password encryption"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 57,
+    "question": "Which of these is considered a cybercrime?",
+    "options": [
+      "Creating memes",
+      "Watching tutorials",
+      "Identity theft",
+      "Using Google Search"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": 58,
+    "question": "What is the purpose of log monitoring?",
+    "options": [
+      "To boost speed",
+      "To detect anomalies and threats",
+      "To delete old files",
+      "To browse faster"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "Which one is a network security protocol?",
+    "options": [
+      "SMTP",
+      "TLS",
+      "DOCX",
+      "JPEG"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": 60,
+    "question": "What is tailgating in cybersecurity?",
+    "options": [
+      "Email spam",
+      "Following someone into a secure area without authorization",
+      "Monitoring chat logs",
+      "Delaying a system update"
+    ],
+    "answerIndex": 1
   }
 ]
+
